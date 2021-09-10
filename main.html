@@ -86,10 +86,17 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__title">STAGE：１  正解。</div>
+              <div class="clear-message__content">目の前が真っ白になり、気がつくと知らない場所にいた。<br>
+                なぜかわからないがなんだか全く知らない場所ではなさそう...。<br>
+                ここはどこだ？<br>
+                たまたま周りにいた人に話を聞くと、どうやらここは大正時代のようだ。<br>
+                状況が飲み込めず混乱しているが、服装の違いからなのか周囲の人々にとても怪しまれている。<br>
+               　　できるだけ早く大人を頼りたいので、とりあえず交番へ行こうと思う。<br>
+                大正時代でもお巡りさんなら何か助けになってくれるだろう、<br>
+                と思い、交番の場所を聞くと画像のような謎を手渡されてしまった。<br>
+                怪しまれており、これを解かないと道を教えてくれないらしい。<br>
+                なんだか腑に落ちないが、助けてもらいたいのでとりあえず謎を解こう。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
