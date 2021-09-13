@@ -175,7 +175,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #b0a831;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -198,7 +198,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #009245;
+  fill: #94964e;
   width: 12px;
   height: 24px;
 }
@@ -284,7 +284,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: #94964e;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -307,7 +307,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: #857c55;
 }
 
 .section-title--border::after {
@@ -336,7 +336,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #857c55;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
@@ -453,7 +453,7 @@ button {
 }
 
 .clear-message {
-  background-color: #d9e021;
+  background-color: #b3b3b3;
   padding: 30px 30px 60px;
   position: relative;
 }
